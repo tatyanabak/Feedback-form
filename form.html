@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Обратная связь</title>
+  </head>
+  <body>
+    <h1 class="container visually-hidden">Задать вопрос</h1>
+
+    <header class="container my-3">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="form.html">Задать вопрос</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="question.html">Вопросы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="answer.html">Ответы</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <form class="container my-4">
+        <div class="form-group">
+          <label for="questionText">Задайте интересующий вас вопрос</label>
+          <textarea class="form-control" id="questionText" placeholder= "Ваш вопрос" rows="10"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary">Отправить</button>
+        <button type="reset" class="btn btn-danger">Стереть</button>
+      </form>
+
+      <div class="container alert alert-success" role="alert">
+        <h4 class="alert-heading">Ваш вопрос успешно отправлен!</h4>
+        <p>После того, как на него будет дан ответ, он появится странице <a href="answers.html" class="alert-link">"Ответы"</a></p>
+      </div>
+
+      <div class="container alert alert-danger" role="alert">
+        <h4 class="alert-heading">Произошла проблема, ваш вопрос не был отправлен.</h4>
+        <p>Сообщите об ошибке в отдел it (тел. 33-33)</p>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
